@@ -4,7 +4,7 @@ import it.andrea.ec.Input;
 
 import java.util.List;
 
-public class Quest01 {
+public class Quest1 {
 
     static void main(String[] args) {
 

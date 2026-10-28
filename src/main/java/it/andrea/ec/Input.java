@@ -9,7 +9,7 @@ import java.util.List;
 
 public final class Input {
 
-    private static final String PATH_STRING = "src/main/resources/y%d/example_quest%02d_p%d.txt";
+    private static final String PATH_STRING = "src/main/resources/y%d/quest%d/example_p%d.txt";
 
     private Input() {}
 
