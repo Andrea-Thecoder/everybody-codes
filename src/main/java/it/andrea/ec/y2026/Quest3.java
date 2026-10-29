@@ -1,6 +1,7 @@
 package it.andrea.ec.y2026;
 
 import it.andrea.ec.Input;
+import it.andrea.ec.Timing;
 
 import java.util.List;
 
@@ -51,9 +52,9 @@ public class Quest3 {
 
     static void main(String[] args) {
 
-        System.out.println("Parte 1: " + partOne(Input.lines(2026, 3, 1)));
-        System.out.println("Parte 2: " + partTwo(Input.lines(2026, 3, 2)));
-        System.out.println("Parte 3: " + partThree(Input.lines(2026, 3, 3)));
+        Timing.run("Parte 1", Input.lines(2026, 3, 1), Quest3::partOne);
+        Timing.run("Parte 2", Input.lines(2026, 3, 2), Quest3::partTwo);
+        Timing.run("Parte 3", Input.lines(2026, 3, 3), Quest3::partThree);
     }
 
 

@@ -1,6 +1,7 @@
 package it.andrea.ec.y2026;
 
 import it.andrea.ec.Input;
+import it.andrea.ec.Timing;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -9,9 +10,9 @@ public class Quest2 {
 
     static void main(String[] args) {
 
-        System.out.println("Parte 1: " + partOne(Input.lines(2026, 2, 1)));
-        System.out.println("Parte 2: " + partTwo(Input.lines(2026, 2, 2)));
-        System.out.println("Parte 3: " + partThree(Input.lines(2026, 2, 3)));
+        Timing.run("Parte 1", Input.lines(2026, 2, 1), Quest2::partOne);
+        Timing.run("Parte 2", Input.lines(2026, 2, 2), Quest2::partTwo);
+        Timing.run("Parte 3", Input.lines(2026, 2, 3), Quest2::partThree);
     }
 
 
